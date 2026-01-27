@@ -9,6 +9,9 @@ function App() {
       <div className="container">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-center">个人简历</h1>
+          <p className="text-center text-sm text-gray-500">
+            https://liu-hongrui.github.io/resume/
+          </p>
         </div>
         <div className="flex items-center justify-center mb-20px">
           <div className="flex-1">

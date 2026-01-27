@@ -75,7 +75,6 @@ const projectInfo = [
 ];
 
 function ProjectCard({ projectName }) {
-  console.log(projectName);
   const project = projectInfo.find((item) => item.projectName === projectName);
   return (
     <>

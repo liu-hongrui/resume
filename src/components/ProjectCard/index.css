@@ -1,0 +1,31 @@
+
+.projectName {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.level3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.level3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #000000;
+}
+
+.STAR {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-indent: 2em;
+}
+

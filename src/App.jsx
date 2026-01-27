@@ -16,12 +16,12 @@ function App() {
         <div className="flex items-center justify-center mb-20px">
           <div className="flex-1">
             <Row gutter={[24, 46]}>
-              <Col span={8}>姓名: 刘竑睿</Col>
-              <Col span={8}>性别: 男</Col>
-              <Col span={8}>电话: 18719803497</Col>
-              <Col span={8}>邮箱: 1638545312@qq.com</Col>
-              <Col span={8}>地址: 重庆</Col>
-              <Col span={8}>职业: 前端开发工程师</Col>
+              <Col span={8} className="whitespace-nowrap">姓名: 刘竑睿</Col>
+              <Col span={8} className="whitespace-nowrap">性别: 男</Col>
+              <Col span={8} className="whitespace-nowrap">电话: 18719803497</Col>
+              <Col span={8} className="whitespace-nowrap">邮箱: 1638545312@qq.com</Col>
+              <Col span={8} className="whitespace-nowrap">地址: 重庆</Col>
+              <Col span={8} className="whitespace-nowrap">职业: 前端开发工程师</Col>
             </Row>
           </div>
           <div className="w-120px h-150px overflow-hidden border-2 border-gray-200 rounded shadow-sm">

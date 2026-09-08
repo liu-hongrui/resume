@@ -85,12 +85,13 @@ function App() {
         <div className="mb-40px">
           <div className="Level2">工作经历</div>
           <Divider size="large" />
+          <ProjectCard projectName="音视频平台" />
+          <ProjectCard projectName="主数据平台" />
           <ProjectCard projectName="能源大数据平台" />
           <ProjectCard projectName="数据底座" />
           <ProjectCard projectName="IRS运营管理系统" />
           <ProjectCard projectName="一体化智能化公共数据平台" />
           <ProjectCard projectName="能力组件系统" />
-          <ProjectCard projectName="销客管理系统" />
         </div>
       </div>
     </>

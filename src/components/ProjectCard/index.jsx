@@ -1,8 +1,30 @@
 import "./index.css";
 
 const projectInfo = [
+   {
+    companyName: "润和软件(中冶赛迪)",
+    projectName: "音视频平台",
+    time: "2026.3 - 至今",
+    techStack:
+      "Vue3、TypeScript、Vite、Pinia、Vue-Router、element-plus-cisdi、@cisdigital/fe-eb-components-v3、@lingshu/integration-vue3、@qbee/qbee-common-lib、fe-qbee-video-compoennt、ECharts、Canvas、WebSocket、UnoCSS、SCSS、Vue-I18n",
+    S: "面向企业视频监控数据长期留存与追溯需求，构建集存储监控、录像计划、历史回放及录像下载于一体的视频管理平台，支持存储资源统一管理与历史录像便捷检索。",
+    T: "负责平台前端开发与核心模块实现，完成存储概览、Bucket管理、录像计划、录像回放、下载管理及事件日志等功能，重点解决多路视频回放、可视化时间编排与播放状态管理等复杂交互问题。",
+    A: "基于Vue 3、TypeScript、Vite与Pinia构建前端应用，接入集团微前端框架；开发多分屏录像回放模块，结合Canvas时间轴实现录像片段展示、播放进度联动与时间定位，通过requestAnimationFrame优化高频交互与绘制；封装可拖拽录像计划组件，实现时间段缩放、网格吸附及边界约束，支持模板复用；封装WebSocket通信模块，实现心跳保活、指数退避重连与消息分发；结合路由懒加载、组件资源清理及四语言适配，完善应用性能与可维护性。",
+    R: "完成六大业务模块建设，形成从存储配置、录像计划到回放检索与下载的完整管理流程，支持1/4/9分屏回放及中、英、越、印尼四种语言；沉淀时间模板、回放时间轴与通信等可复用模块，为后续功能迭代和多语言交付提供基础。",
+  },
   {
-    companyName: "重庆智网科技信息通信分公司（英之豪）",
+    companyName: "润和软件(中冶赛迪)",
+    projectName: "主数据平台",
+    time: "2026.3 - 至今",
+    techStack:
+      "Vue3、TypeScript、Vite、Pinia、Vue-Router、element-plus-cisdi、@cisdigital/fe-eb-components-v3、@cisdigital/fe-datakits-components-v3、@cisdigital/fe-vue-contacts、@lingshu/integration-vue3、@qbee/qbee-common-lib、AntV X6、SortableJS、SCSS、Vue-I18n",
+    S: "面向企业多业务系统间数据标准不统一、主数据维护分散及共享困难的问题，建设集数据标准、主数据建模、数据维护、审批与分发于一体的主数据管理平台，为跨系统业务协同提供统一的数据基础。",
+    T: "负责平台前端需求拆解、核心模块开发与公共组件封装，完成主数据模型配置、动态数据维护、版本对比及权限管理等功能，解决多模型、多视图场景下复杂表单的复用与交互一致性问题。",
+    A: "基于Vue 3、TypeScript、Vite与Pinia构建模块化应用，接入企业微前端框架；设计模型元数据驱动的动态表单，根据字段类型、校验规则和权限配置生成交互界面，支持一对一、一对多视图及新增、编辑、查看等场景复用；实现模型版本差异对比与高亮展示，封装分类目录、条件配置、批量导入等业务组件；统一按钮操作权限判断与字段权限适配，结合虚拟化树组件、路由懒加载优化复杂页面的加载与渲染。",
+    R: "实现从数据标准定义、主数据建模到维护审批、分发共享的业务流程，支持通过模型配置生成数据维护界面，减少同类表单的重复开发；沉淀可复用业务组件与通用逻辑，为新增主数据类型和后续功能迭代提供基础，并通过版本对比、权限控制增强数据维护的可追溯性与操作规范性。",
+  },
+  {
+    companyName: "英之豪科技有限公司(重庆智网科技信息通信分公司)",
     projectName: "能源大数据平台",
     time: "2025.3 - 至今",
     techStack:
@@ -13,7 +35,7 @@ const projectInfo = [
     R: "提升团队开发效率，显著缩短交付周期，首屏加载时间缩短20%，提高流畅度，平台成功上线，稳定服务与数字化部、发展部、营销部、安监部等核心部门。",
   },
   {
-    companyName: "重庆智网科技信息通信分公司（英之豪）",
+    companyName: "英之豪科技有限公司(重庆智网科技信息通信分公司)",
     projectName: "数据底座",
     time: "2025.3 - 至今",
     techStack: "React18、TypeScript、Redux Toolkit、AntV X6、Ant-Design",
@@ -61,16 +83,6 @@ const projectInfo = [
     T: "负责项目功能模块开发，确保数据接入与展示的实时性和准确性，为用户提供及时、准确的数据分析服务。",
     A: "完成云网资源、应用资源、组件资源板块的开发任务，基于ECharts图表库，满足甲方需求，实现非标准特殊图表精准展示， 使用pdfjs库实现文件的预览功能。",
     R: "项目成功上线，数据展示直观性提升40%，高效支撑公司业务数据决策分析",
-  },
-  {
-    companyName: "蜜梨网络科技有限公司",
-    projectName: "销客管理系统",
-    time: "2020.3 - 2023.3",
-    techStack: "Vue2、Webpack、Vuex、Vue-Router、Element、Less",
-    S: "针对资源、数据、报表、营销数据管理，包含用户数据、订单数据、营销数据等模块，提供后台管理系统数据支持。",
-    T: "负责项目功能模块开发，实现数据的展示与交互。",
-    A: "完成首页、用户管理、营销数据管理模块的开发，对接接口，实现数据的展示与交互。",
-    R: "项目稳定运行，无重大故障，用户反馈良好，为公司提供了高效、便捷的管理服务。",
   },
 ];
 

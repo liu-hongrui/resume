@@ -4,7 +4,7 @@ const projectInfo = [
    {
     companyName: "润和软件(中冶赛迪)",
     projectName: "音视频平台",
-    time: "2026.3 - 至今",
+    time: "2026.2 - 至今",
     techStack:
       "Vue3、TypeScript、Vite、Pinia、Vue-Router、element-plus-cisdi、@cisdigital/fe-eb-components-v3、@lingshu/integration-vue3、@qbee/qbee-common-lib、fe-qbee-video-compoennt、ECharts、Canvas、WebSocket、UnoCSS、SCSS、Vue-I18n",
     S: "面向企业视频监控数据长期留存与追溯需求，构建集存储监控、录像计划、历史回放及录像下载于一体的视频管理平台，支持存储资源统一管理与历史录像便捷检索。",
@@ -15,7 +15,7 @@ const projectInfo = [
   {
     companyName: "润和软件(中冶赛迪)",
     projectName: "主数据平台",
-    time: "2026.3 - 至今",
+    time: "2026.2 - 至今",
     techStack:
       "Vue3、TypeScript、Vite、Pinia、Vue-Router、element-plus-cisdi、@cisdigital/fe-eb-components-v3、@cisdigital/fe-datakits-components-v3、@cisdigital/fe-vue-contacts、@lingshu/integration-vue3、@qbee/qbee-common-lib、AntV X6、SortableJS、SCSS、Vue-I18n",
     S: "面向企业多业务系统间数据标准不统一、主数据维护分散及共享困难的问题，建设集数据标准、主数据建模、数据维护、审批与分发于一体的主数据管理平台，为跨系统业务协同提供统一的数据基础。",
@@ -26,7 +26,7 @@ const projectInfo = [
   {
     companyName: "英之豪科技有限公司(重庆智网科技信息通信分公司)",
     projectName: "能源大数据平台",
-    time: "2025.3 - 至今",
+    time: "2025.3 - 2026.2",
     techStack:
       "Vue3、TypeScript、Vite、Pinia、Vue-Router、Ant-Design、ECharts、ThreeJs、SWRV、Unocss、Less",
     S: "响应集团”能源一体化“战略，构建数据采集、监控、分析于一体的综合新数字化管理平台，应对城市及园区日益复杂的能源管理需求。",
@@ -37,7 +37,7 @@ const projectInfo = [
   {
     companyName: "英之豪科技有限公司(重庆智网科技信息通信分公司)",
     projectName: "数据底座",
-    time: "2025.3 - 至今",
+    time: "2025.3 - 2026.2",
     techStack: "React18、TypeScript、Redux Toolkit、AntV X6、Ant-Design",
     S: "为解决公司管理及资源分散构建的数据中台，实现统一接入、处理、分析和管理。",
     T: "实现从前端到后端的权限映射，登录认证、角色管理、接口权限控制。基于角色动态渲染菜单、按钮，确保系统安全性。",

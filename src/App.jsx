@@ -37,7 +37,7 @@ function App() {
           <Divider size="large" />
           <ul className="pl-20px">
             <li className="li-point">
-              <p>精通HTML5，CSS3及JavaScript，具备扎实前端编程能力。</p>
+              <p>精通HTML5，CSS3及JavaScript，具备扎实前端编程能力，熟练运用 AI Coding 工具辅助需求拆解、代码生成、重构与问题排查；能够编写清晰提示词，结合项目规范审查 AI 生成代码，并通过测试和代码审查确保质量。</p>
             </li>
             <li className="li-point">
               <p>

@@ -92,6 +92,7 @@ function App() {
           <ProjectCard projectName="IRS运营管理系统" />
           <ProjectCard projectName="一体化智能化公共数据平台" />
           <ProjectCard projectName="能力组件系统" />
+          <ProjectCard projectName="营销后台" />
         </div>
       </div>
     </>
